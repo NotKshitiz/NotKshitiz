@@ -23,10 +23,10 @@ attention, KV cache, quantization, and why everything is memory-bound at decode 
 
 | project | what it is |
 |---|---|
-| **[MiniInfer](https://github.com/NotKshitiz/MiniInfer)** | LLM inference engine from scratch — PagedAttention, FlashAttention v1, benchmarked vs vLLM |
-| **[LitmusLab](https://github.com/NotKshitiz/litmus-lab)** | CLI tool for benchmarking quantized LLMs across FP16/INT8/INT4 — published on PyPI |
+| **[MiniInfer](https://github.com/NotKshitiz/MiniInfer)** | LLM inference engine from scratch - PagedAttention, FlashAttention v1, benchmarked vs vLLM |
+| **[LitmusLab](https://github.com/NotKshitiz/litmus-lab)** | CLI tool for benchmarking quantized LLMs across FP16/INT8/INT4 - published on PyPI |
 | **[CUDA](https://github.com/NotKshitiz/CUDA)** | Kernel collection: tiled matmul, warp-shuffle reduction, fused softmax, attention primitives |
-| **[RepoMind](https://github.com/NotKshitiz/RepoMind)** | Agentic RAG over GitHub codebases — tree-sitter AST chunking, LangGraph, deployed |
+| **[RepoMind](https://github.com/NotKshitiz/RepoMind)** | Agentic RAG over GitHub codebases - tree-sitter AST chunking, LangGraph, deployed |
 
 ---
 
