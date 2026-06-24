@@ -38,7 +38,7 @@ happens inside the forward and backward pass at the kernel level.
 ```
 → implementing FlashAttention v1 in CUDA from the paper (Working my way up to build MiniInfer)
 → building paged attention kernel, benchmarking memory reduction vs naive KV cache
-→ open to inference optimization roles · bangalore / remote
+→ open to ai/ml ,agentic ai, inference optimization roles 
 ```
 
 ---
