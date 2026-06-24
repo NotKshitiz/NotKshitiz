@@ -17,6 +17,9 @@
 writing CUDA kernels and understanding LLM inference from the ground up -
 attention, KV cache, quantization, and why everything is memory-bound at decode time.
 
+also into the training side - fine-tuning, quantization-aware training, and what
+happens inside the forward and backward pass at the kernel level.
+
 ---
 
 ### projects
