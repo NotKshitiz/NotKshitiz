@@ -2,7 +2,7 @@
 
 # Kshitiz Kumar
 
-**LLM inference · CUDA kernels · GPU systems**
+**LLMs · Inference · CUDA kernels · GPU systems · GenAI**
 
 ![CUDA](https://img.shields.io/badge/CUDA-76b900?style=flat&logo=nvidia&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-f34b7d?style=flat&logo=cplusplus&logoColor=white)
