@@ -26,7 +26,7 @@ happens inside the forward and backward pass at the kernel level and GenAI appli
 
 | project | what it is |
 |---|---|
-| **[MiniInfer](https://github.com/NotKshitiz/MiniInfer)** | LLM inference engine from scratch - PagedAttention, FlashAttention v1, benchmarked vs vLLM |
+| **[MiniInfer (In Progress)](https://github.com/NotKshitiz/MiniInfer)** | LLM inference engine from scratch - PagedAttention, FlashAttention v1, benchmarked vs vLLM |
 | **[LitmusLab](https://github.com/NotKshitiz/litmus-lab)** | CLI tool for benchmarking quantized LLMs across FP16/INT8/INT4 - published on PyPI |
 | **[CUDA](https://github.com/NotKshitiz/CUDA)** | Kernel collection: tiled matmul, warp-shuffle reduction, fused softmax, attention primitives |
 | **[RepoMind](https://github.com/NotKshitiz/RepoMind)** | Agentic RAG over GitHub codebases - tree-sitter AST chunking, LangGraph, deployed |
