@@ -1,8 +1,6 @@
 
-
 # Kshitiz Kumar
-
-**LLMs · Inference · CUDA kernels · GPU systems · GenAI**
+**LLMs · Inference · CUDA kernels · Agentic systems**
 
 ![CUDA](https://img.shields.io/badge/CUDA-76b900?style=flat&logo=nvidia&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-f34b7d?style=flat&logo=cplusplus&logoColor=white)
@@ -13,12 +11,10 @@
 ---
 
 ### what i work on
-
-writing CUDA kernels and understanding LLM inference from the ground up -
+writing CUDA kernels and understanding LLM inference from the ground up —
 attention, KV cache, quantization, and why everything is memory-bound at decode time.
-
-also into the training side - fine-tuning, quantization-aware training, and what
-happens inside the forward and backward pass at the kernel level and GenAI application that actually ship.
+also building GenAI systems that actually ship — multi-agent pipelines, agentic RAG,
+and production LLM applications.
 
 ---
 
@@ -26,18 +22,22 @@ happens inside the forward and backward pass at the kernel level and GenAI appli
 
 | project | what it is |
 |---|---|
-| **[MiniInfer (In Progress)](https://github.com/NotKshitiz/MiniInfer)** | LLM inference engine from scratch - PagedAttention, FlashAttention v1, benchmarked vs vLLM |
-| **[LitmusLab](https://github.com/NotKshitiz/litmus-lab)** | CLI tool for benchmarking quantized LLMs across FP16/INT8/INT4 - published on PyPI |
-| **[CUDA](https://github.com/NotKshitiz/CUDA)** | Kernel collection: tiled matmul, warp-shuffle reduction, fused softmax, attention primitives |
-| **[RepoMind](https://github.com/NotKshitiz/RepoMind)** | Agentic RAG over GitHub codebases - tree-sitter AST chunking, LangGraph, deployed |
+| **[LitmusLab](https://github.com/NotKshitiz/litmus-lab)** | CLI tool for benchmarking quantized LLMs across FP16/INT8/INT4 · 9k+ PyPI downloads |
+| **[RepoMind](https://github.com/NotKshitiz/RepoMind)** | Agentic RAG over GitHub codebases · tree-sitter AST chunking · LangGraph · live demo |
+| **[CUDA Kernels](https://github.com/NotKshitiz/CUDA)** | Tiled matmul · warp-shuffle reduction · occupancy profiling · naive vs optimized benchmarks |
+| **[everything-from-scratch](https://github.com/NotKshitiz/everything-from-scratch)** | Transformer ops in pure NumPy · softmax · layernorm · RMSNorm · matmul · no frameworks |
+
+---
+
+### currently
 
 ---
 
 ### currently
 
 ```
-→ implementing FlashAttention v1 in CUDA from the paper (Working my way up to build MiniInfer)
-→ building paged attention kernel, benchmarking memory reduction vs naive KV cache
+→ learning voice AI fundamentals — VAD, STT, TTS pipeline, latency optimization
+→ building toward a real-time voice agent with sub-800ms latency from scratch
 → open to inference optimization and GenAI roles 
 ```
 
