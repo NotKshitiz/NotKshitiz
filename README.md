@@ -11,9 +11,9 @@
 ---
 
 ### what i work on
-writing CUDA kernels and understanding LLM inference from the ground up —
+writing CUDA kernels and understanding LLM inference from the ground up -
 attention, KV cache, quantization, and why everything is memory-bound at decode time.
-also building GenAI systems that actually ship — multi-agent pipelines, agentic RAG,
+also building GenAI systems that actually ship - multi-agent pipelines, agentic RAG,
 and production LLM applications.
 
 ---
